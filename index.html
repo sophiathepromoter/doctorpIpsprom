@@ -12,7 +12,7 @@
   <div class="gallery">
     <div class="image-wrapper">
       <img src="Forex.jpeg" alt="Image 1">
-      <div class="caption">Doctor Pips the game changer! Generate 80%+ Profit Monthly With Our Free Forex Robot<br><br>You can join us on WhatsApp by scanning the QR code provided on the flyer, click on the WhatsApp Icon.<br><br></div><br>
+      <div class="caption">Doctor Pips the game changer! Generate 80%+ Profit Monthly With Our Free Forex Robot<br><br>You can also click the WhatsApp Icon to join<br><br></div><br>
     </div>
     
   <div class="redirect-container">
@@ -117,19 +117,15 @@ h1 {
 }
 
 .whatsapp-icon {
-  position: fixed;
-  bottom: 5%;
-  right: 5%;
-  width: 10%;
-  max-width: 80px;
-  height: auto;
+  width: 50px;
+  height: 50px;
   background-color: #25D366;
   border-radius: 50%;
   text-align: center;
-  line-height: 0;
+  line-height: 50px;
   transition: transform 0.3s ease;
-  z-index: 9999;
 }
+
 
 .whatsapp-icon:hover {
   transform: scale(1.1);
@@ -142,16 +138,12 @@ h1 {
 }
 
 .redirect-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
-
 
 .redirect-symbol {
   color: #8faf4a;
