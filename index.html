@@ -113,20 +113,12 @@ h1 {
   right: 20px;
   cursor: pointer;
 }
-
-.whatsapp-icon {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  width: 20px;
-  height: 20px;
-  background-color: #25D366;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  transition: transform 0.3s ease;
-  z-index: 9999;
+.whatsapp-icon img {
+  width: 100%; /* Set the width to 100% to fit within the parent container */
+  height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+  display: block;
 }
+
 
 .whatsapp-icon:hover {
   transform: scale(1.1);
